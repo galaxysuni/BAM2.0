@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 320px){
+    .galeria {
+        flex-direction: column;
+        align-items: center;
+    }
+    .galeria img {
+        max-width: 320px;
+        align-items: center;
+    }
+
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 300;
+	color: #454546; 
+    background-color: #f5e1c8;
+    font-size: 16px;
+	line-height: 0.5cm;
+    padding-top: 60px;
+}
+.titulito {
+	font-size: 1.5cm;
+	margin: 5px 0;
+	text-align: left;
+	font-weight: 100;
+    color: #8c8c8c;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+p {
+	margin: 0 0 1.5em 0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+#elHeader {
+	background: #454546;
+	height: 60px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}	
+#logoHeader {
+    color: #e8c39e;
+    float: left;
+    padding: 15px 0 0 20px;
+	text-decoration: none;
+    font-family: 'Young Serif', serif;
+}
+#logoHeader:hover {
+    color: #8c8c8c;
+}
+#logoHeader .nombre {
+    display: block;
+    font-weight: 500;
+    font-size: 0.8cm;
+}
+
+#logoHeader .descripcion {
+    display: block;
+    font-weight: 200;
+    font-size: 0.3cm;
+    line-height: 2;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+nav {
+	float: right;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20px;
+}
+	
+nav ul li {
+	display: inline-block;
+	line-height: 60px;
+}
+			
+nav ul li a {
+    color: white;
+	display: block;
+	padding: 0 10px;
+	text-decoration: none;
+	}
+			
+nav ul li a:hover {
+	background: #666666;
+}
+
+#contenido {
+    background: white;
+    width: 100%;
+    max-width: 900px;
+    margin: 10px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+        
+#contenido header,
+    #contenido .content {
+    padding: 40px;
+}
+
+#container {
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 1cm;
+}
+#extra {
+    background: #e8c39e;
+    width: 100%;
+    max-width: 900px;
+    margin: 10px auto;
+    text-align: left;
+    font-size: 0.5cm;
+	font-weight: 100;
+    line-height: 0.8cm;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+ 
+  .galeria{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  
+  .galeria img{
+    max-width: 420px;
+    padding: 10px;
+  }
+
+#pie {
+	background: #666666;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	margin-top: 10px;
+}
+	#pie p {
+		margin: 0;
+	}
