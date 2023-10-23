@@ -130,7 +130,8 @@ nav ul li a:hover {
     font-family: 'Roboto Condensed', sans-serif;
   }
 
-  .carouselDeFotos {
+  .carouselDeFotos { <!--Estoy teniendo problemas con el css del carousel y no sé por qué-->
+    
      $carousel-control-color: $black;
      $carousel-control-width:             15%;
      $carousel-control-opacity:           .5;
